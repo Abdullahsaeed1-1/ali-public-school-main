@@ -1,0 +1,273 @@
+# Expected outcome for every legacy URL (all 234 from the old Yoast sitemaps, plus old
+# redirects, pagination and feeds). 200 = served as itself, self-canonical. 301 = one hop to
+# destination. 410 = retired demo content. Checked by scripts/seo-migration-check.mjs.
+# path	expect	destination	note	canonical-of (variants only)
+/	200		legacy URL kept
+/2015/11/07/principal/	301	/principals-message/	
+/2015/11/07/we-welcome-our-new-principal/	200		news post
+/2015/12/22/announcement/	200		news post
+/2015/12/23/sporting-activities/	200		news post
+/2016/02/24/extenstion-in-aps-junior-school-premises/	200		news post
+/2016/03/15/we-are-hiring/	200		news post
+/2016/03/19/final-exams-2016/	200		news post
+/2016/03/30/annual-day-event-march-2016/	200		news post
+/2016/04/22/new-academic-session-2016-17/	200		news post
+/2016/06/04/summer-vacation-2016/	200		news post
+/2016/07/22/career-opportunities-at-aps/	200		news post
+/2016/10/21/2363/	200		news post
+/2016/11/18/second-term-exams-results-declaration/	200		news post
+/2016/11/24/acca-counsellor-symposium-2016/	200		news post
+/2016/12/02/sports-event-december-2016/	200		news post
+/2016/12/22/winter-vacations-academic-year-201617/	200		news post
+/2017/01/23/tips-to-prepare-for-final-exams/	410		Lorem-ipsum demo post
+/2017/02/10/debate-speech-competition/	200		news post
+/2017/02/13/final-exams-2017/	200		news post
+/2017/02/17/drawing-competition-february-2017/	200		news post
+/2017/03/05/interesting-practice-for-our-graduates/	410		Lorem-ipsum demo post
+/2017/03/30/annual-founders-day-march-2017/	200		news post
+/2017/04/26/use-our-school-high-speed-internet/	410		Lorem-ipsum demo post
+/2017/06/08/summer-vacation-2017/	200		news post
+/2017/06/12/preparation-for-control/	410		Lorem-ipsum demo post
+/2017/08/15/school-reopening-15-aug-2017/	200		news post
+/2017/08/18/interesting-individual-tasks/	410		Lorem-ipsum demo post
+/2017/09/03/career-opportunities-at-aps-2/	200		news post
+/2017/09/27/studing-with-good-mood/	410		Lorem-ipsum demo post
+/2017/10/04/new-school-transport/	410		Lorem-ipsum demo post
+/2017/10/18/hepatitis-camp/	200		news post
+/2017/11/17/drawing-competition/	200		news post
+/2017/11/23/annual-sports-event-nov-2017/	200		news post
+/2017/11/26/friendship-and-entertainment/	410		Lorem-ipsum demo post
+/2017/11/27/debate-speech-competition-nov-2017/	200		news post
+/2017/12/13/toyota-dream-car-contest-dec-2017/	200		news post
+/2018/01/20/new-playground-equipment-installed/	200		news post
+/2018/02/02/spend-time-with-pleasure/	410		Lorem-ipsum demo post
+/2018/02/23/girls-section/	200		news post
+/2018/03/27/annual-founders-day-2018/	200		news post
+/2018/06/15/happy-eid-greetings/	200		news post
+/2018/07/13/friendship-and-entertainments/	410		Lorem-ipsum demo post
+/2018/07/13/interesting-practice-for-graduates/	410		Lorem-ipsum demo post
+/2018/07/13/many-interesting-individual-tasks/	410		Lorem-ipsum demo post
+/2018/07/13/spend-school-time-with-pleasure/	410		Lorem-ipsum demo post
+/2018/07/13/use-school-high-speed-internet/	410		Lorem-ipsum demo post
+/2018/09/01/appreciation-acknowledgement-from-ispr/	200		news post
+/2018/11/27/girls-section-sports-day/	200		news post
+/2018/11/28/junior-section-sports-day-2018/	200		news post
+/2018/11/30/final-sports-day-and-prize-distribution-ceremony-november-2018/	200		news post
+/2019/01/05/opening-of-ali-public-college/	200		news post
+/2019/01/18/drawing-and-speech-competition-january-2019/	200		news post
+/2019/03/15/ali-public-school-and-college-new-campus/	200		news post
+/2019/03/23/annual-founders-day-march-2019/	200		news post
+/2019/04/15/launch-of-ali-public-college-april-2019/	200		news post
+/2019/08/11/best-eid-al-adha-greetings-to-all/	200		news post
+/2019/08/24/back-to-school/	200		news post
+/2019/10/11/dental-hygiene-campaign-october-2019/	200		news post
+/2019/10/15/dental-hygiene-campaign/	200		news post
+/2019/11/05/result-day-november-2019/	200		news post
+/2019/11/05/results-day-for-first-bi-annual-exams/	200		news post
+/2019/11/17/trip-to-pakistan-aeronautical-complex-pac-kamra-november-2019/	200		news post
+/2019/11/20/school-field-trips/	200		news post
+/2019/11/30/sports-events-november-2019/	200		news post
+/2019/12/31/extended-winter-vacations/	200		news post
+/2020/03/15/ali-public-school-college-session-2020-2021/	200		news post
+/2020/03/26/aps-launches-online-classes/	200		news post
+/2020/04/12/aps-online-live-classes/	200		news post
+/2020/04/14/stills-from-online-live-lessons-for-nursery-and-kg/	200		news post
+/2020/04/22/ramadan-mubarik/	200		news post
+/2020/05/11/coronavirus-nerve-centre-organisation-7-th-update/	200		news post
+/2020/07/08/schools-are-scheduled-to-reopen-in-first-week-of-september-2020/	200		news post
+/2020/09/02/admissions-open-session-2020-2021/	200		news post
+/2020/09/06/ali-public-school-girls-section-admission-open/	200		news post
+/2020/09/12/%d8%a2%d9%be-%da%a9%db%92-%d8%ae%d8%af%d8%b4%d8%a7%d8%aa-%d8%a7%d9%88%d8%b1-%db%81%d9%85%d8%a7%d8%b1%db%92-%d8%ac%d9%88%d8%a7%d8%a8%d8%a7%d8%aa/	200		news post
+/2020/09/15/nursery-kg-section-admission-open/	200		news post
+/2020/09/18/new-computer-equipment/	200		news post
+/2020/09/22/back-to-school-2020/	200		news post
+/2020/10/02/apsc-sundry-pictures/	200		news post
+/2021/02/04/ali-public-school-college-new-building/	200		news post
+/2021/02/04/junior-section-activities/	200		news post
+/2021/02/20/junior-section-nursery-boys-and-girls-busy-with-counting-backward-activity/	200		news post
+/2021/06/17/apsc-annual-founders-day-13-june-2021/	200		news post
+/2021/07/20/eid-al-adha-mubarik/	200		news post
+/2021/09/20/parents-teacher-meeting-20-september-2021/	200		news post
+/2021/10/05/junior-campus-teachers-day-celebration-activities/	200		news post
+/2021/12/02/3d-science-models-diagrams-by-students/	200		news post
+/2021/12/02/junior-campus-activities/	200		news post
+/2022/04/01/ramadan-kareem/	200		news post
+/2022/05/16/apsc-is-proud-to-partner-with-classter-for-a-cloud-based-school-management-system/	200		news post
+/2022/06/09/final-exams-results/	200		news post
+/2022/07/08/eid-al-adha-mubarak/	200		news post
+/2022/10/22/1st-bi-monthly-tests-results-day-celebrations/	200		news post
+/2022/10/28/friday-activities-in-junior-girls-and-boys-campuses/	200		news post
+/about-us-1/	301	/about-us/overview/	
+/about-us-2/	301	/about-us/overview/	
+/about-us/	200		legacy URL kept
+/about-us/core-values/	200		legacy URL kept
+/about-us/extracurricular-activities/	200		legacy URL kept
+/about-us/junior-section/	200		legacy URL kept
+/about-us/organizational-chart/	200		legacy URL kept
+/about-us/overview/	200		legacy URL kept
+/about-us/senior-section/	200		legacy URL kept
+/academics/	200		legacy URL kept
+/academics/admission-policy/	200		legacy URL kept
+/academics/anti-bullying-policy/	200		legacy URL kept
+/academics/behaviour-discipline-exclusions/	200		legacy URL kept
+/academics/complaints-policy-for-parents/	200		legacy URL kept
+/academics/health-safety-policy/	200		legacy URL kept
+/academics/homework-policy/	200		legacy URL kept
+/academics/school-rules/	200		legacy URL kept
+/academics/school-term-holiday-dates-for-the-acamedic-year-2017-2019/	200		legacy URL kept
+/academics/school-terms-and-holiday-dates-for-the-academic-year-2019-2020/	200		legacy URL kept
+/academics/school-unifrom/	200		legacy URL kept
+/academics/student-attendance-policy/	200		legacy URL kept
+/academics/visitors-policy/	200		legacy URL kept
+/admission/	301	/academics/admission-policy/	
+/alerts-and-stuff/	410		theme demo
+/all-instructors/	410		theme demo
+/author/admin/	301	/blog/	
+/become-a-teacher/	410		theme demo
+/blog/	200		legacy URL kept
+/careers/	200		legacy URL kept
+/careers/vacancies/	200		legacy URL kept
+/cart-2/	410		theme demo
+/cart-3/	410		theme demo
+/cart/	410		theme demo
+/category/academic/	410		theme demo
+/category/advantage/	410		theme demo
+/category/advantages/	410		theme demo
+/category/collective/	410		theme demo
+/category/education/	410		theme demo
+/category/events/	200		legacy URL kept
+/category/facilities/	410		theme demo
+/category/faculty/	301	/principals-message/	
+/category/news/	200		legacy URL kept
+/checkout-2-2/	410		theme demo
+/checkout-2/	410		theme demo
+/checkout-3/	410		theme demo
+/checkout/	410		theme demo
+/contact-us-2/	301	/contact-us/	
+/contact-us/	200		legacy URL kept
+/core-values-2/	301	/about-us/core-values/	
+/course/	410		theme demo
+/courses-2/	410		theme demo
+/courses/	410		theme demo
+/custom-shortcodes/	410		theme demo
+/faculty/	301	/about-us/	
+/front-page-static-header/	410		theme demo
+/front-page/	301	/	
+/galleries/	200		legacy URL kept
+/galleries/picture-galleries-till-2019/	200		legacy URL kept
+/galleries/video-galleries/	200		legacy URL kept
+/gallery-one/	410		theme demo
+/gallery/	301	/galleries/	
+/gallery/beauty-and-spa/	410		theme demo post type
+/gallery/bikes-and-mountains/	410		theme demo post type
+/gallery/cinema-and-theather/	410		theme demo post type
+/gallery/cooking-cookie/	410		theme demo post type
+/gallery/cooking-games/	410		theme demo post type
+/gallery/family-courses/	410		theme demo post type
+/gallery/holidays-with-coursemates/	410		theme demo post type
+/gallery/karate-lady/	410		theme demo post type
+/gallery/mountain-biking/	410		theme demo post type
+/gallery/mountains/	410		theme demo post type
+/gallery/new-teacher-welcome/	410		theme demo post type
+/gallery/ofiice-details/	410		theme demo post type
+/gallery/painting/	410		theme demo post type
+/gallery/parents-and-kids/	410		theme demo post type
+/gallery/selfy/	410		theme demo post type
+/gallery/student-life/	410		theme demo post type
+/gallery/visit-and-happy/	410		theme demo post type
+/gallery_category/courses/	410		theme demo post type
+/gallery_category/events/	410		theme demo post type
+/gallery_category/students/	410		theme demo post type
+/gallery_category/teachers/	410		theme demo post type
+/main-page-slide-show-test/	410		theme demo
+/media-gallery/	200		legacy URL kept
+/my-account-2/	410		theme demo
+/my-account-3/	410		theme demo
+/my-account/	410		theme demo
+/picture-galleries-old/	301	/galleries/picture-galleries-till-2019/	
+/pj-categs/aps-projects/	301	/campuses/	
+/pl-categs/biology-teacher/	410		theme demo post type
+/pl-categs/english-teacher/	410		theme demo post type
+/pl-categs/geography-teacher/	410		theme demo post type
+/pl-categs/head-teacher/	410		theme demo post type
+/pl-categs/headmaster/	410		theme demo post type
+/pl-categs/history-teacher/	410		theme demo post type
+/pl-categs/language-art-teacher/	410		theme demo post type
+/pl-categs/schoolmaster/	410		theme demo post type
+/pl-categs/special-education-teacher/	410		theme demo post type
+/policy-procedures/	301	/academics/	
+/pricing-plans/	410		theme demo
+/profile/	410		theme demo post type
+/profile/lucy-allen-2/	410		theme demo post type
+/profile/lucy-allen-3/	410		theme demo post type
+/profile/lucy-allen/	410		theme demo post type
+/profile/martha-jackson-2/	410		theme demo post type
+/profile/martha-jackson-3/	410		theme demo post type
+/profile/martha-jackson/	410		theme demo post type
+/profile/tom-brown-2/	410		theme demo post type
+/profile/tom-brown-3/	410		theme demo post type
+/profile/tom-brown/	410		theme demo post type
+/project/	301	/campuses/	
+/project/girls-section/	301	/about-us/junior-section/	
+/project/new-comfortable-building/	301	/about-us/senior-section/	
+/sample-page/	410		theme demo
+/shop-2/	410		theme demo
+/shop/	410		theme demo
+/tag/ali-public-shool-and-college/	200		legacy URL kept
+/tag/badaber/	200		legacy URL kept
+/tag/kohat/	200		legacy URL kept
+/tag/peshawar/	200		legacy URL kept
+/tag/summer-vacations-2016/	200		legacy URL kept
+/teachers/	410		theme demo post type
+/teachers/arthur-springs/	410		theme demo post type
+/teachers/brad-pitt/	410		theme demo post type
+/teachers/cindy-chow/	410		theme demo post type
+/teachers/leonardo-bonucci/	410		theme demo post type
+/teachers/peter-parker/	410		theme demo post type
+/teachers/rebeca-adams/	410		theme demo post type
+/teachers/sarah-johnson/	410		theme demo post type
+/teachers/sergey-polyakov/	410		theme demo post type
+/terms-and-conditions/	410		theme demo
+/test-a1ss-unite-gallery-wrapper/	410		theme demo
+/test-unite-gallery-wrapper/	410		theme demo
+/test/	410		theme demo
+/toggle-elements/	410		theme demo
+/typography/	410		theme demo
+/vacancies-archive/	301	/careers/vacancies/	
+/vision-and-mission/	301	/about-us/overview/	
+/welcome-to-ali-public-school/	200		legacy URL kept
+/overview/	301	/about-us/overview/	
+/admission-policy/	301	/academics/admission-policy/	
+/blog/page/2/	301	/blog/	
+/blog/page/3/	301	/blog/	
+/blog/page/4/	301	/blog/	
+/blog/page/5/	301	/blog/	
+/blog/page/6/	301	/blog/	
+/blog/page/7/	301	/blog/	
+/blog/page/8/	301	/blog/	
+/blog/page/9/	301	/blog/	
+/blog/page/10/	301	/blog/	
+/category/news/page/2/	301	/category/news/	
+/category/news/page/3/	301	/category/news/	
+/category/news/page/4/	301	/category/news/	
+/category/news/page/5/	301	/category/news/	
+/category/news/page/6/	301	/category/news/	
+/category/events/page/2/	301	/category/events/	
+/category/events/page/3/	301	/category/events/	
+/sitemap_index.xml	301	/sitemap.xml	
+/post-sitemap.xml	301	/sitemap.xml	
+/page-sitemap.xml	301	/sitemap.xml	
+/category-sitemap.xml	301	/sitemap.xml	
+/post_tag-sitemap.xml	301	/sitemap.xml	
+/teachers-sitemap.xml	301	/sitemap.xml	
+/gallery-sitemap.xml	301	/sitemap.xml	
+/project-sitemap.xml	301	/sitemap.xml	
+/profile-sitemap.xml	301	/sitemap.xml	
+/gallery_category-sitemap.xml	301	/sitemap.xml	
+/pj-categs-sitemap.xml	301	/sitemap.xml	
+/pl-categs-sitemap.xml	301	/sitemap.xml	
+/author-sitemap.xml	301	/sitemap.xml	
+/feed/	200		RSS feed
+/comments/feed/	410		theme demo
+/2020/09/12/%D8%A2%D9%BE-%DA%A9%DB%92-%D8%AE%D8%AF%D8%B4%D8%A7%D8%AA-%D8%A7%D9%88%D8%B1-%DB%81%D9%85%D8%A7%D8%B1%DB%92-%D8%AC%D9%88%D8%A7%D8%A8%D8%A7%D8%AA/	200		Urdu slug, uppercase percent-encoding	/2020/09/12/%d8%a2%d9%be-%da%a9%db%92-%d8%ae%d8%af%d8%b4%d8%a7%d8%aa-%d8%a7%d9%88%d8%b1-%db%81%d9%85%d8%a7%d8%b1%db%92-%d8%ac%d9%88%d8%a7%d8%a8%d8%a7%d8%aa/
+/2020/09/12/آپ-کے-خدشات-اور-ہمارے-جوابات/	200		Urdu slug, decoded	/2020/09/12/%d8%a2%d9%be-%da%a9%db%92-%d8%ae%d8%af%d8%b4%d8%a7%d8%aa-%d8%a7%d9%88%d8%b1-%db%81%d9%85%d8%a7%d8%b1%db%92-%d8%ac%d9%88%d8%a7%d8%a8%d8%a7%d8%aa/
