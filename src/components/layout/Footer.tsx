@@ -121,10 +121,6 @@ export function Footer() {
               years. copyrightLine() runs founding year → current year. */}
           {copyrightLine()}. Granted College status in {site.collegeStatusYear}.
         </p>
-        <p className="mt-1">
-          BISE Registration #{site.registrations.bise} · PSRA Registration #
-          {site.registrations.psra}
-        </p>
       </div>
     </footer>
   );

@@ -36,9 +36,8 @@ export default function AboutPage() {
 
       <section className="bg-sand px-6 py-20">
         <div className="mx-auto max-w-4xl rounded-2xl border border-navy-ink/10 bg-paper px-6 py-4 text-center text-xs text-navy-ink/70">
-          Registered with BISE Peshawar (#{site.registrations.bise}), the
-          Private Schools Regulatory Authority (#{site.registrations.psra}), and
-          approved for the {site.registrations.acca}.
+          Registered with BISE Peshawar and the Private Schools Regulatory
+          Authority, and approved for the {site.registrations.acca}.
         </div>
       </section>
 

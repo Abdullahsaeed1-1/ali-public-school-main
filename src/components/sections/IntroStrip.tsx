@@ -9,8 +9,9 @@ import { site } from "@/data/site";
  * A "500+ Students" counter used to sit in the middle slot. The school has
  * never published a student count anywhere — MASTERPROMPT §4 is explicit:
  * "Do NOT put a student count here until the school gives you one." It has
- * been replaced with the year College status was granted, which is a fact the
- * school states itself.
+ * been replaced with years since College status was granted, a fact the
+ * school states itself. Counted from the current year rather than showing
+ * "2019", which read as an out-of-date status.
  */
 const stats = [
   {
@@ -18,7 +19,11 @@ const stats = [
     suffix: "+",
     label: "Years Serving",
   },
-  { value: site.collegeStatusYear, suffix: "", label: "College Status" },
+  {
+    value: new Date().getFullYear() - site.collegeStatusYear,
+    suffix: "+",
+    label: "Years as a College",
+  },
   { value: 3, suffix: "", label: "Sections" },
 ];
 

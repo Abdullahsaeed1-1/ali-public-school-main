@@ -104,7 +104,7 @@ export const qualifications = [
   },
   {
     name: "Secondary School Certificate (SSC)",
-    body: "BISE Peshawar — Registration No. 1764",
+    body: "BISE Peshawar",
   },
   {
     name: "Higher Secondary School Certificate (HSSC)",

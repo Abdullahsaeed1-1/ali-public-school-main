@@ -189,7 +189,7 @@ export default function AcademicsPage() {
         items={policyFooterLinks}
       />
 
-      {/* Boards and registrations */}
+      {/* Examination boards and qualifications */}
       <section className="bg-navy-ink px-6 py-20">
         <div className="mx-auto max-w-5xl">
           <Reveal>
@@ -197,7 +197,7 @@ export default function AcademicsPage() {
               Examinations
             </p>
             <h2 className="mt-3 font-display text-2xl font-semibold text-paper md:text-3xl">
-              Boards &amp; registrations
+              Boards &amp; qualifications
             </h2>
           </Reveal>
           <div className="mt-10 grid gap-6 sm:grid-cols-2">
