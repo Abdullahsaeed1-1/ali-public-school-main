@@ -530,3 +530,16 @@ body {
  * block of text — must not be wrapped in a Reveal. Everything below the fold
  * can be, because by the time it scrolls into view hydration is long done.
  */
+
+/*
+ * Background videos are decoration, never a player. iOS overlays its own play
+ * button whenever autoplay is blocked (Low Power Mode, data saver), so hide
+ * Safari's native controls outright. LazyVideo keeps the poster up until the
+ * clip is actually playing.
+ */
+video::-webkit-media-controls,
+video::-webkit-media-controls-start-playback-button,
+video::-webkit-media-controls-overlay-play-button {
+  display: none !important;
+  -webkit-appearance: none;
+}

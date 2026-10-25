@@ -122,8 +122,12 @@ export function LazyVideo({
           playsInline
           preload="auto"
           aria-label={label}
-          onCanPlay={() => setPlaying(true)}
-          className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${
+          // Reveal on `playing`, not `canplay`: iOS Low Power Mode blocks
+          // autoplay yet still fires canplay, which used to fade in a paused
+          // video with Safari's play button over it. If playback never
+          // starts, the poster simply stays.
+          onPlaying={() => setPlaying(true)}
+          className={`pointer-events-none absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${
             playing ? "opacity-100" : "opacity-0"
           }`}
         >

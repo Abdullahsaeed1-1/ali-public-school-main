@@ -99,6 +99,17 @@ Vercel's domain screen, DNS only/grey). **Leave `mail`, `webmail`, `cpanel`,
   preview at ali-public-school-main.vercel.app. Local SEO check: all passed.
 - Domain emails in use (per Javed bhai): hoc@, info@, principal@, admin@.
 
+**LAUNCHED 2026-10-25.** @ and www are CNAMEs to `add17e0552d7f5c2.vercel-dns-017.com`
+(grey). www redirects to apex with a 308. Live SEO check passed, except two harmless
+results: www gives 308 instead of 301, and /wp-admin/ gives 403 (Vercel) instead of 404.
+Mail and Classter records were left alone. Favicon is the main branch crest
+(public/logo/crest.jpeg). The shield badge belongs to Premier and must not be used here.
+Search Console domain property is verified (google-site-verification TXT at the root;
+never delete it). sitemap.xml was submitted 2026-10-25: Success, 120 pages. Indexing
+was requested for the key URLs.
+Cloudflare's "origin IP exposed, proxy all records" recommendation must be IGNORED,
+because proxying `mail` breaks email.
+
 ### Pending order of work
 1. Inaam sir presses "Check DNS Records" in Classter, then sends a Gmail test message.
 2. Test email both ways on one of the 4 mailboxes.
